@@ -30,6 +30,12 @@ public class Principal {
         }
         
         Operacion ope=new Operacion(); //creamos el objeto de la clase Operacion.
+        
+        switch(op){
+        case 1: 
+                System.out.println("la suma entre "+num1+" y "+num2+" es: "+ope.sumar(num1, num2));        
+                break;
+            }
  
 	}
 
