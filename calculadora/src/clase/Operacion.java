@@ -18,6 +18,11 @@ public double multiplicar (double n1, double n2){
         double producto = n1 * n2;
         return producto;
     }
+public double dividir(double n1, double n2)
+{
+	double division=n1/n2;
+	return division;
+}
     
 }
 
