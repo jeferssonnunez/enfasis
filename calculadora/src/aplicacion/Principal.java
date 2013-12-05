@@ -42,6 +42,17 @@ public class Principal {
          case 3: 
                     System.out.println("el producto entre "+num1+" y "+num2+" es: "+ope.multiplicar(num1, num2));        
                     break; 
+         case 4:
+         	if(num2==0)
+         	{
+         		System.out.println("la division por  cero no existe");     
+         		
+                break;
+         	}
+         	else{
+         		System.out.println("la division entre "+num1+" y "+num2+" es: "+ope.dividir(num1, num2));        
+                        break;	
+         	}
  
 	}
 	
