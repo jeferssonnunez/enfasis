@@ -14,18 +14,18 @@ public class Principal {
 		// TODO Auto-generated method stub
 		Scanner flujoE=new Scanner(System.in);
 		double num1,num2;
-        System.out.println ("Por favor digite el primer nï¿½mero:");
+        System.out.println ("Por favor digite el primer número:");
         num1=flujoE.nextDouble();    
-        System.out.println ("Por favor digite el segundo nï¿½mero:");
+        System.out.println ("Por favor digite el segundo número:");
         num2=flujoE.nextDouble();
         
         int op=0;  //para que entre al while
         while(op<1 || op>4){
-        System.out.println("Seleccione una operaciï¿½n:"
+        System.out.println("Seleccione una operación:"
                 + "\n 1. suma"
                 +"\n 2. resta"
-                +"\n 3. multiplicaciï¿½n"
-                +"\n 4. divisiï¿½n");
+                +"\n 3. multiplicación"
+                +"\n 4. división");
         op=flujoE.nextInt();
         }
         
