@@ -35,7 +35,7 @@ public class Principal {
         case 1: 
                 System.out.println("la suma entre "+num1+" y "+num2+" es: "+ope.sumar(num1, num2));        
                 break;
-            }
+            
         case 2: 
                     System.out.println("la resta entre "+num1+" y "+num2+" es: "+ope.restar(num1, num2));        
                     break;
