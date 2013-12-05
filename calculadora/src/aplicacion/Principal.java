@@ -14,18 +14,18 @@ public class Principal {
 		// TODO Auto-generated method stub
 		Scanner flujoE=new Scanner(System.in);
 		double num1,num2;
-        System.out.println ("Por favor digite el primer número:");
+        System.out.println ("Por favor digite el primer nï¿½mero:");
         num1=flujoE.nextDouble();    
-        System.out.println ("Por favor digite el segundo número:");
+        System.out.println ("Por favor digite el segundo nï¿½mero:");
         num2=flujoE.nextDouble();
         
         int op=0;  //para que entre al while
         while(op<1 || op>4){
-        System.out.println("Seleccione una operación:"
+        System.out.println("Seleccione una operaciï¿½n:"
                 + "\n 1. suma"
                 +"\n 2. resta"
-                +"\n 3. multiplicación"
-                +"\n 4. división");
+                +"\n 3. multiplicaciï¿½n"
+                +"\n 4. divisiï¿½n");
         op=flujoE.nextInt();
         }
         
@@ -36,6 +36,12 @@ public class Principal {
                 System.out.println("la suma entre "+num1+" y "+num2+" es: "+ope.sumar(num1, num2));        
                 break;
             }
+        case 2: 
+                    System.out.println("la resta entre "+num1+" y "+num2+" es: "+ope.restar(num1, num2));        
+                    break;
+         case 3: 
+                    System.out.println("el producto entre "+num1+" y "+num2+" es: "+ope.multiplicar(num1, num2));        
+                    break; 
  
 	}
 
